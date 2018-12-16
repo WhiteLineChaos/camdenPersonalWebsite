@@ -21,18 +21,36 @@
   padding-top: 40vh;
   text-align: center;
   font-size: 50px;
-  color: #907dd1;
-  letter-spacing: 10px
+  color: white;
+  letter-spacing: 20px;
 }
 .alignRight {
   text-align: right;
 }
-.hLink {
-  padding: 10px;
-  color: #907dd1;
+.hLinkYt {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
-.hLink:hover {
+.hLinkYt:hover {
   transition: 0.5s;
   color: white;
+  background-color: #ff0000;
+  border-radius: 10px;
   text-decoration: none;
+  padding: 10px;
+}
+.hLinkIg {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.hLinkIg:hover {
+  transition: 0.5s;
+  color: white;
+  background-image: linear-gradient(to bottom left, #4c68d7,#8a3ab9,#bc2a8d,#cd486b, #e95950,#fbad50,#fccc63);
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+
 }
