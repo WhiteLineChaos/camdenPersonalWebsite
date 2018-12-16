@@ -18,11 +18,15 @@
 }
 .myName {
   height: 50vh;
-  padding-top: 40vh;
+  padding-top:  40vh;
   text-align: center;
   font-size: 50px;
   color: white;
   letter-spacing: 20px;
+  animation: nSlide 2s;
+  -moz-animation: nSlide 2s; /* Firefox */
+  -webkit-animation: nSlide 2s; /* Safari and Chrome */
+  -o-animation: nSlide 2s; /* Opera */
 }
 .alignRight {
   text-align: right;
@@ -31,6 +35,10 @@
   color: white;
   font-size: 18px;
   letter-spacing: 1px;
+  animation: ytSlide 2s;
+  -moz-animation: ytSlide 2s; /* Firefox */
+  -webkit-animation: ytSlide 2s; /* Safari and Chrome */
+  -o-animation: ytSlide 2s; /* Opera */
 }
 .hLinkYt:hover {
   transition: 0.5s;
@@ -44,6 +52,10 @@
   color: white;
   font-size: 18px;
   letter-spacing: 1px;
+  animation: igSlide 2s;
+  -moz-animation: igSlide 2s; /* Firefox */
+  -webkit-animation: igSlide 2s; /* Safari and Chrome */
+  -o-animation: igSlide 2s; /* Opera */
 }
 .hLinkIg:hover {
   transition: 0.5s;
@@ -52,5 +64,53 @@
   border-radius: 10px;
   text-decoration: none;
   padding: 10px;
+}
+@keyframes nSlide {
+  from {padding-top: 0vh; opacity: 0;}
+  to {padding-top: 40vh; opacity: 1;}
+}
+@-moz-keyframes nSlide {
+  from {padding-top: 0vh; opacity: 0;}
+  to {padding-top: 40vh; opacity: 1;}
+}
+@-webkit-keyframes nSlide {
+  from {padding-top: 0vh; opacity: 0;}
+  to {padding-top: 40vh; opacity: 1;}
+}
+@-o-keyframes nSlide {
+  from {padding-top: 0vh; opacity: 0;}
+  to {padding-top: 40vh; opacity: 1;}
+}
+@keyframes ytSlide {
+  from {padding-right: 50vw; opacity: 0;}
+  to {padding-right: 0vw; opacity: 1;}
+}
+@-moz-keyframes ytSlide {
+  from {padding-right: 50vw; opacity: 0;}
+  to {padding-right: 0vw; opacity: 1;}
+}
+@-webkit-keyframes ytSlide {
+  from {padding-right: 50vw; opacity: 0;}
+  to {padding-right: 0vw; opacity: 1;}
+}
+@-o-keyframes ytSlide {
+  from {padding-right: 50vw; opacity: 0;}
+  to {padding-right: 0vw; opacity: 1;}
+}
 
+@keyframes igSlide {
+  from {padding-left: 50vw ; opacity: 0;}
+  to {padding-left: 0vw; opacity: 1;}
+}
+@-moz-keyframes igSlide {
+  from {padding-left: 50vw ; opacity: 0;}
+  to {padding-left: 0vw; opacity: 1;}
+}
+@-webkit-keyframes igSlide {
+  from {padding-left: 50vw ; opacity: 0;}
+  to {padding-left: 0vw; opacity: 1;}
+}
+@-o-keyframes igSlide {
+  from {padding-left: 50vw ; opacity: 0;}
+  to {padding-left: 0vw; opacity: 1;}
 }
