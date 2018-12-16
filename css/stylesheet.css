@@ -1,0 +1,38 @@
+.blueBg {
+  background: #6bafaa;
+}
+.greyBg {
+  background: #282c34;
+}
+.redBg {
+  background: red;
+}
+.greenBg {
+  background: green;
+}
+.purpleBg {
+  background: purple;
+}
+.orangeBg {
+  background: orange;
+}
+.myName {
+  height: 50vh;
+  padding-top: 40vh;
+  text-align: center;
+  font-size: 50px;
+  color: #907dd1;
+  letter-spacing: 10px
+}
+.alignRight {
+  text-align: right;
+}
+.hLink {
+  padding: 10px;
+  color: #907dd1;
+}
+.hLink:hover {
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+}
